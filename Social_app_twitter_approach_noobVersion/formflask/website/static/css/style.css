@@ -1,0 +1,21 @@
+body {
+  background-image: linear-gradient(
+      to right,
+      rgba(5, 10, 36, 0.8),
+      rgb(57, 92, 65, 0.8)
+    ),
+    url("../image/bg.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  overflow: hidden;
+}
+
+/* base  */
+
+.bg {
+  overflow-y: hidden;
+  min-height: 100vh;
+}
